@@ -9,7 +9,7 @@
 ## Install your environment
 
 ```bash
-#!
+#!/bin/bash
 
 #download solr
 wget "http://wwwftp.ciril.fr/pub/apache/lucene/solr/6.2.1/solr-6.2.1.tgz"
@@ -28,4 +28,5 @@ echo "PATH=`pwd`/solr-6.2.1/bin:$PATH" > ~/.bashrc
 - Add a file to solr : `post -c <collection name> <path><filename>`
 - Add several files : `post -c <collection name> <path><regex(ex : *.xml)>`
 - Delete a file from solr using JSON format : `post -c <collection name> -type application/JSON -d '{delete : {<key>: <value>}}'`
-PS : by default, you have to use xml format : `post -c <collection name> -d '<delete><key>value</key></delete'`
+
+*PS : by default, you have to use xml format : `post -c <collection name> -d '<delete><key>value</key></delete'`*
