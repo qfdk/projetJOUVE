@@ -3,26 +3,26 @@
 	{
 		"id" : 1,
 		"title" : "Coucou Salifou",
-		"Context" : "Salifou's story"
+		"content" : "Salifou's story"
 	},
 	{
 		"id" : 2,
 		"title" : "Coucou Youssouf",
-		"Context" : "Youssouf fait des maths"
+		"content" : "Youssouf fait des maths"
 	},
 	{
 		"id" : 3,
 		"title" : "Coucou Baptiste",
-		"Context" : "Baptiste fait du Windows"
+		"content" : "Baptiste fait du Windows"
 	},
 	{
 		"id" : 4,
 		"title" : "Coucou Haozhi",
-		"Context" : "Haozhi bidouille"
+		"content" : "Haozhi bidouille"
 	},
 	{
 		"id" : 5,
 		"title" : "Salut Kévin",
-		"Context" : "Kévin rigole bien"
+		"content" : "Kévin rigole bien"
 	}
 ]
