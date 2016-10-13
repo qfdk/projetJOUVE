@@ -33,11 +33,11 @@ source  ~/.bashrc
 - Delete a file from solr using JSON format : `post -c <collection name> -type application/JSON -d '{delete : {<key>: <value>}}'`
 
 ## Own Solr Config
-- create core : `solr start` & `solr create_core -c <name>`
+- create core : `solr start` & `solr create -c <name>`
 
 ## Searching
 
-- Combining searches (operators : + - || &&): `url http://localhost:8983/solr/<core name>/select?indent=on&q=%2B<word to search>+-<word to exclue>&wt=json`
+- Combining searches (operators : + - || &&): `curl http://localhost:8983/solr/<core name>/select?indent=on&q=%2B<word to search>+-<word to exclue>&wt=json`
 
 
 
