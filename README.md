@@ -19,6 +19,8 @@ tar -xvf solr-6.2.1.tgz
 
 #put solr path in .bashrc
 echo "PATH=`pwd`/solr-6.2.1/bin:$PATH" > ~/.bashrc
+
+source  ~/.bashrc
 ```
 
 
