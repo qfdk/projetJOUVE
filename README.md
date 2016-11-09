@@ -19,7 +19,6 @@ git clone https://github.com/qfdk/projetJOUVE.git && cd projetJOUVE
 bash script/install.sh
 ```
 
-
 ## SolrCloud commands
 
 - Launch solr example : `solr start -e cloud -noprompt`
@@ -61,8 +60,6 @@ bash script/install.sh
 |tie|x|
 |bq|cat:electronics^5.0 inStock:true^0.1|
 |bf|x|
-
-
 
 ## Resources
 

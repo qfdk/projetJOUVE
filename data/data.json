@@ -1,25 +1,43 @@
-{
+[{
 	"id" : 1,
 	"title" : "Coucou Salifou",
-	"content" : "Salifou's story"
+	"vip":1,
+	"skills":"C,Java,cafe",
+	"content" : "Salifou's story, coucou salifou = hello world"
 },
 {
 	"id" : 2,
 	"title" : "Coucou Youssouf",
+	"vip":2,
+	"skills":"c++,Java",
 	"content" : "Youssouf fait des maths"
 },
 {
 	"id" : 3,
 	"title" : "Coucou Baptiste",
+	"vip":4,
+	"skills":"C,Java,CSS,HTML",
 	"content" : "Baptiste fait du Windows"
 },
 {
 	"id" : 4,
-	"title" : "Coucou Haozhi",
-	"content" : "Haozhi bidouille"
+	"title" : "Haozhi likes OpenSource",
+	"vip":5,
+	"skills":"Java, Node.js, Apache Spark, Apache Solr, Apache NiFi",
+	"content" : "ElasticSearch is good, Apache Solr is better:)"
 },
 {
 	"id" : 5,
-	"title" : "Salut Kévin",
-	"content" : "Kévin rigole bien"
+	"title" : "Kévin works on Apache Solr",
+	"vip":4,
+	"skills":"C, Java, MNT, HTML5",
+	"content" : "Kévin rigole bien."
+},
+{
+	"id" : 6,
+	"title" : "Jordan is a new member",
+	"vip":3,
+	"skills":"C, Java, PHP, HTML5",
+	"content" : "He will back."
 }
+]
