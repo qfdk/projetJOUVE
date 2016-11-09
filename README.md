@@ -37,6 +37,32 @@ bash script/install.sh
 
 *PS : by default, you have to use xml format* : `post -c <collection name> -d '<delete><key>value</key></delete>'`
 
+## Default Parameters
+
+|Parameter | Description|
+|----------|------------|
+|q|Query key:value|
+|fq|Applies a filter query to the search results.|
+|sort| A sort order(asc or desc)|
+|sart,rows|0-10 (number of record)|
+|fl|The filed  which to display|
+|df|x|
+
+## DisMax Parameters
+
+|Parameter | Description|
+|----------|------------|
+|q.alt|Calls the standard query parser and defines query input strings, when the q parameter is not used.|
+|qf|Query Fields: specifies the fields in the index on which to perform the query. If absent, defaults to df.|
+|mm|x|
+|pf|x|
+|ps|x|
+|qs|x|
+|tie|x|
+|bq|cat:electronics^5.0 inStock:true^0.1|
+|bf|x|
+
+
 
 ## Resources
 
