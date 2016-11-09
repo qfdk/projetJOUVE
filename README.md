@@ -35,7 +35,7 @@ bash script/install.sh
 
 - Combining searches (operators : + - || &&): `curl http://localhost:8983/solr/<core name>/select?indent=on&q=%2B<word to search>+-<word to exclue>&wt=json`
 
-*PS : by default, you have to use xml format* : `post -c <collection name> -d '<delete><key>value</key></delete'`
+*PS : by default, you have to use xml format* : `post -c <collection name> -d '<delete><key>value</key></delete>'`
 
 
 ## Resources
