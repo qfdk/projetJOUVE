@@ -39,5 +39,26 @@
 	"vip":3,
 	"skills":"C, Java, PHP, HTML5",
 	"content" : "He will back."
-}
+},
+{
+	"id" : 7,
+	"title" : "Li works on Apache and Java",
+	"vip":3,
+	"skills":"C, Java, PHP, HTML5",
+	"content" : "He will back."
+},
+{
+	"id" : 8,
+	"title" : "Apache Nifi and Apache Tomcat",
+	"vip":3,
+	"skills":"C, Java, PHP, HTML5",
+	"content" : "He will back."
+},
+{
+	"id" : 9,
+	"title" : "Haozhi likes OpenSource",
+	"vip":5,
+	"skills":"Java, Node.js, Apache Spark, Apache Solr, Apache NiFi,C-sharp",
+	"content" : "ElasticSearch is good, Apache Solr is better:)"
+},
 ]
