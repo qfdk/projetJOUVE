@@ -87,3 +87,29 @@ bash script/install.sh
  - [ ] How_can_I_boost_the_score_of_newer_documents
  - [ ] How_do_I_give_a_negative_(or_very_low)_boost_to_documents_that_match_a_query.3F
  - [ ] TODO
+
+
+Dans solr, Il faut mettre extension dans les champs dans les documents qu’on indexe
+
+pour pouvoir effectuer des recherches complexes sur ces champs : 
+il faut les transformer en texte
+
+-> content -> content_txt
+
+De plus il faut ajouter la langue pour tokenizer
+-> content_txt -> content_txt_en
+
+
+Ensuite on peut obtenir des requêtes pour que le mot « men » soit présent dans deux champs à la fois
+
+name_txt_en:trendy AND description_txt_en:T-shirt
+
+
+Pour avoir deux mots placés à n mots l’un de l’autre
+
+description_txt_en:"T-shirt store"~< n >
+
+
+
+Rajouter champs 
+prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
