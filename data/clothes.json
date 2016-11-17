@@ -4,7 +4,7 @@
 	"description": "T-shirt trendy, grey, for good men.",
 	"category": "t-shirt",
 	"gender": "men",
-	"color": "grey",
+	"colors": "grey",
 	"size": "S",
 	"in-stock": true
 }, {
@@ -13,7 +13,7 @@
 	"description": "T-shirt trendy, blue, for good men.",
 	"category": "t-shirt",
 	"gender": "men",
-	"color": "blue",
+	"colors": "blue",
 	"size":"M",
 	"in-stock": true
 }, {
@@ -22,7 +22,7 @@
 	"description": "T-shirt trendy, black, for good women.",
 	"category": "t-shirt",
 	"gender": "women",
-	"color": "black",
+	"colors": "black",
 	"size": "L",
 	"in-stock": false
 }, {
@@ -31,7 +31,7 @@
 	"description": "T-shirt signature from our store. Grey. For Women.",
 	"category": "t-shirt",
 	"gender": "women",
-	"color": "grey",
+	"colors": "grey",
 	"size": "XS",
 	"in-stock": false
 }, {
@@ -40,7 +40,7 @@
 	"description": "T-shirt signature from our store. Grey. For women.",
 	"category": "t-shirt",
 	"gender": "women",
-	"color": "grey",
+	"colors": "grey",
 	"size": "S",
 	"in-stock": true
 }, {
@@ -49,7 +49,7 @@
 	"description": "T-shirt signature from our store. Grey. For men.",
 	"category": "t-shirt",
 	"gender": "men",
-	"color": "red",
+	"colors": "red",
 	"size": "S",
 	"in-stock": false
 }, {
@@ -59,7 +59,7 @@
 	"category": "jeans",
 	"cut": "slim",
 	"gender": "men",
-	"color": "grey",
+	"colors": "grey",
 	"size": "42",
 	"in-stock": true
 }, {
@@ -69,17 +69,17 @@
 	"category": "jeans",
 	"cut": "slim",
 	"gender": "men",
-	"color": "grey",
+	"colors": "grey",
 	"size": "36",
 	"in-stock": false
 }, {
 	"id": 4,
 	"name": "Jeans straight nice",
-	"description": "Jeans straight cut for women. Color blue, all size.",
+	"description": "Jeans straight cut for women. colors blue, all size.",
 	"category": "jeans",
 	"cut": "straight",
 	"gender": "women",
-	"color": "blue",
+	"colors": "blue",
 	"size": "38",
 	"in-stock": true
 }, {
@@ -89,7 +89,7 @@
 	"category": "jeans",
 	"cut": "straight",
 	"gender": "women",
-	"color": "blue",
+	"colors": "blue",
 	"size": "38",
 	"in-stock": true
 }, {
