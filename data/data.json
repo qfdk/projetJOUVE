@@ -1,64 +1,64 @@
 [{
 	"id" : 1,
-	"title" : "Coucou Salifou",
+	"title_txt_en" : "Coucou Salifou",
 	"vip":1,
-	"skills":"C,Java,cafe",
-	"content" : "Salifou's story, coucou salifou = hello world"
+	"skills_txt_en":"C,Java,cafe",
+	"content_txt_en" : "Salifou's story, coucou salifou = hello world"
 },
 {
 	"id" : 2,
-	"title" : "Coucou Youssouf",
+	"title_txt_en" : "Coucou Youssouf",
 	"vip":2,
-	"skills":"c++,Java",
-	"content" : "Youssouf fait des maths"
+	"skills_txt_en":"c++,Java",
+	"content_txt_en" : "Youssouf fait des maths"
 },
 {
 	"id" : 3,
-	"title" : "Coucou Baptiste",
+	"title_txt_en" : "Coucou Baptiste",
 	"vip":4,
-	"skills":"C,Java,CSS,HTML",
-	"content" : "Baptiste fait du Windows"
+	"skills_txt_en":"C,Java,CSS,HTML",
+	"content_txt_en" : "Baptiste fait du Windows"
 },
 {
 	"id" : 4,
-	"title" : "Haozhi likes OpenSource",
+	"title_txt_en" : "Haozhi likes OpenSource",
 	"vip":5,
-	"skills":"Java, Node.js, Apache Spark, Apache Solr, Apache NiFi",
-	"content" : "ElasticSearch is good, Apache Solr is better:)"
+	"skills_txt_en":"Java, Node.js, Apache Spark, Apache Solr, Apache NiFi",
+	"content_txt_en" : "ElasticSearch is good, Apache Solr is better:)"
 },
 {
 	"id" : 5,
-	"title" : "Kévin works on Apache Solr",
+	"title_txt_en" : "Kévin works on Apache Solr",
 	"vip":4,
-	"skills":"C, Java, MNT, HTML5",
-	"content" : "Kévin rigole bien."
+	"skills_txt_en":"C, Java, MNT, HTML5",
+	"content_txt_en" : "Kévin rigole bien."
 },
 {
 	"id" : 6,
-	"title" : "Jordan is a new member",
+	"title_txt_en" : "Jordan is a new member",
 	"vip":3,
-	"skills":"C, Java, PHP, HTML5",
-	"content" : "He will back."
+	"skills_txt_en":"C, Java, PHP, HTML5",
+	"content_txt_en" : "He will back."
 },
 {
 	"id" : 7,
-	"title" : "Li works on Apache and Java",
+	"title_txt_en" : "Li works on Apache and Java",
 	"vip":3,
-	"skills":"C, Java, PHP, HTML5",
-	"content" : "He will back."
+	"skills_txt_en":"C, Java, PHP, HTML5",
+	"content_txt_en" : "He will back."
 },
 {
 	"id" : 8,
-	"title" : "Apache Nifi and Apache Tomcat",
+	"title_txt_en" : "Apache Nifi and Apache Tomcat",
 	"vip":3,
-	"skills":"C, Java, PHP, HTML5",
-	"content" : "He will back."
+	"skills_txt_en":"C, Java, PHP, HTML5",
+	"content_txt_en" : "He will back."
 },
 {
 	"id" : 9,
-	"title" : "Haozhi likes OpenSource",
+	"title_txt_en" : "Haozhi likes OpenSource",
 	"vip":5,
-	"skills":"Java, Node.js, Apache Spark, Apache Solr, Apache NiFi,C-sharp",
-	"content" : "ElasticSearch is good, Apache Solr is better:)"
-},
+	"skills_txt_en":"Java, Node.js, Apache Spark, Apache Solr, Apache NiFi,C-sharp",
+	"content_txt_en" : "ElasticSearch is good, Apache Solr is better:)"
+}
 ]
