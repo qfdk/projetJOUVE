@@ -8,7 +8,7 @@
 	"size_txt_en": "S",
 	"in-stock_b": true
 }, {
-	"id": 8,
+	"id": 2,
 	"name_txt_en": "T-shirt trendy",
 	"description_txt_en": "T-shirt trendy, blue, for good men.",
 	"category_txt_en": "t-shirt",
@@ -17,7 +17,7 @@
 	"size_txt_en":"M",
 	"in-stock_b": true
 }, {
-	"id": 9,
+	"id": 3,
 	"name_txt_en": "T-shirt trendy",
 	"description_txt_en": "T-shirt trendy, black, for good women.",
 	"category_txt_en": "t-shirt",
@@ -26,7 +26,7 @@
 	"size_txt_en": "L",
 	"in-stock_b": false
 }, {
-	"id": 2,
+	"id": 4,
 	"name_txt_en": "T-shirt signature",
 	"description_txt_en": "T-shirt signature from our store. Grey. For Women.",
 	"category_txt_en": "t-shirt",
@@ -35,8 +35,7 @@
 	"size_txt_en": "XS",
 	"in-stock_b": false
 }, {
-	"id": 10,
-<<<<<<< HEAD
+	"id": 5,
 	"name_txt_en": "T-shirt signature",
 	"description_txt_en": "T-shirt signature from our store. Grey. For Women.",
 	"category_txt_en": "t-shirt",
@@ -45,7 +44,7 @@
 	"size_txt_en": "S",
 	"in-stock_b": true
 }, {
-	"id": 11,
+	"id": 6,
 	"name_txt_en": "T-shirt signature",
 	"description_txt_en": "T-shirt signature from our store. Grey. For Women.",
 	"category_txt_en": "t-shirt",
@@ -53,26 +52,8 @@
 	"color_txt_en": "red",
 	"size_txt_en": "S",
 	"in-stock_b": false
-=======
-	"name": "T-shirt signature",
-	"description": "T-shirt signature from our store. Grey. For women.",
-	"category": "t-shirt",
-	"gender": "women",
-	"color": "grey",
-	"size": "S",
-	"in-stock": true
 }, {
-	"id": 11,
-	"name": "T-shirt signature",
-	"description": "T-shirt signature from our store. Grey. For men.",
-	"category": "t-shirt",
-	"gender": "men",
-	"color": "red",
-	"size": "S",
-	"in-stock": false
->>>>>>> 6cf4c2ebe7bb60a8b1c085dbba58a0b0297d5927
-}, {
-	"id": 3,
+	"id": 7,
 	"name_txt_en": "Jeans slim trendy",
 	"description_txt_en": "Jeans slim trendy, overwashed effect.",
 	"category_txt_en": "jeans",
@@ -82,7 +63,7 @@
 	"size_txt_en": "42",
 	"in-stock_b": true
 }, {
-	"id": 12,
+	"id": 8,
 	"name_txt_en": "Jeans slim trendy",
 	"description_txt_en": "Jeans slim trendy, overwashed effect.",
 	"category_txt_en": "jeans",
@@ -92,28 +73,17 @@
 	"size_txt_en": "36",
 	"in-stock_b": false
 }, {
-	"id": 4,
-<<<<<<< HEAD
+	"id": 9,
 	"name_txt_en": "Jeans straight nice",
-	"description_txt_en": "Jeans straight cut_txt_en for women. Color_txt_en blue, all size_txt_ens.",
+	"description_txt_en": "Jeans straight cut for women. Color blue, all sizes.",
 	"category_txt_en": "jeans",
 	"cut_txt_en": "straight",
 	"gender_txt_en": "women",
 	"color_txt_en": "blue",
 	"size_txt_en": "38",
 	"in-stock_b": true
-=======
-	"name": "Jeans straight nice",
-	"description": "Jeans straight cut for women. Color blue, all size.",
-	"category": "jeans",
-	"cut": "straight",
-	"gender": "women",
-	"color": "blue",
-	"size": "38",
-	"in-stock": true
->>>>>>> 6cf4c2ebe7bb60a8b1c085dbba58a0b0297d5927
 }, {
-	"id": 13,
+	"id": 10,
 	"name_txt_en": "Jeans straight trendy",
 	"description_txt_en": "Jeans straight trendy, women.",
 	"category_txt_en": "jeans",
@@ -123,58 +93,30 @@
 	"size_txt_en": "38",
 	"in-stock_b": true
 }, {
-	"id": 5,
-<<<<<<< HEAD
+	"id": 11,
 	"name_txt_en": "Dress signature",
 	"description_txt_en": "Dress lightweight, perfect for summer.",
 	"category_txt_en": "dress",
 	"gender_txt_en": "women",
 	"color_txt_en": "green",
-	"size_txt_ens": "S",
+	"size_txt_en": "S",
 	"in-stock_b": true
 },{
-	"id": 14,
+	"id": 12,
 	"name_txt_en": "Dress signature",
 	"description_txt_en": "Dress lightweight, perfect for summer.",
 	"category_txt_en": "dress",
 	"gender_txt_en": "women",
 	"color_txt_en": "black",
-	"size_txt_ens": "S",
+	"size_txt_en": "S",
 	"in-stock_b": true
 }, {
-	"id": 6,
+	"id": 13,
 	"name_txt_en": "Dress of the death",
 	"description_txt_en": "Dress for metal listening ladies.",
 	"category_txt_en": "dress",
 	"gender_txt_en": "women",
 	"color_txt_en": "black",
-	"size_txt_ens": "XL",
+	"size_txt_en": "XL",
 	"in-stock_b": false
-=======
-	"name": "Dress signature",
-	"description": "Dress lightweight, perfect for summer.",
-	"category": "dress",
-	"gender": "women",
-	"colors": "green",
-	"size": "S",
-	"in-stock": true
-},{
-	"id": 14,
-	"name": "Dress signature",
-	"description": "Dress lightweight, perfect for summer.",
-	"category": "dress",
-	"gender": "women",
-	"colors": "black",
-	"size": "S",
-	"in-stock": true
-}, {
-	"id": 6,
-	"name": "Dress of the death",
-	"description": "Dress for metal listening ladies.",
-	"category": "dress",
-	"gender": "women",
-	"colors": "black",
-	"size": "XL",
-	"in-stock": false
->>>>>>> 6cf4c2ebe7bb60a8b1c085dbba58a0b0297d5927
 }]
