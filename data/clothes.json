@@ -37,7 +37,7 @@
 }, {
 	"id": 10,
 	"name": "T-shirt signature",
-	"description": "T-shirt signature from our store. Grey. For Women.",
+	"description": "T-shirt signature from our store. Grey. For women.",
 	"category": "t-shirt",
 	"gender": "women",
 	"color": "grey",
@@ -46,7 +46,7 @@
 }, {
 	"id": 11,
 	"name": "T-shirt signature",
-	"description": "T-shirt signature from our store. Grey. For Women.",
+	"description": "T-shirt signature from our store. Grey. For men.",
 	"category": "t-shirt",
 	"gender": "men",
 	"color": "red",
@@ -75,7 +75,7 @@
 }, {
 	"id": 4,
 	"name": "Jeans straight nice",
-	"description": "Jeans straight cut for women. Color blue, all sizes.",
+	"description": "Jeans straight cut for women. Color blue, all size.",
 	"category": "jeans",
 	"cut": "straight",
 	"gender": "women",
@@ -97,26 +97,26 @@
 	"name": "Dress signature",
 	"description": "Dress lightweight, perfect for summer.",
 	"category": "dress",
-	"genders": "women",
+	"gender": "women",
 	"colors": "green",
-	"sizes": "S",
+	"size": "S",
 	"in-stock": true
 },{
 	"id": 14,
 	"name": "Dress signature",
 	"description": "Dress lightweight, perfect for summer.",
 	"category": "dress",
-	"genders": "women",
+	"gender": "women",
 	"colors": "black",
-	"sizes": "S",
+	"size": "S",
 	"in-stock": true
 }, {
 	"id": 6,
 	"name": "Dress of the death",
 	"description": "Dress for metal listening ladies.",
 	"category": "dress",
-	"genders": "women",
+	"gender": "women",
 	"colors": "black",
-	"sizes": "XL",
+	"size": "XL",
 	"in-stock": false
 }]
