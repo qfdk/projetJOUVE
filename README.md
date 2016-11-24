@@ -67,49 +67,34 @@ bash script/install.sh
 - [LTR](https://lucidworks.com/blog/2016/08/17/learning-to-rank-solr/)
 - [SOLR Search query](https://cwiki.apache.org/confluence/display/solr/Searching)
 
-## TODO
+## Done
 
  - [x] Should_I_use_the_standard_or_dismax_Query_Parser
  - [x] How_can_I_search_for_"superman"_in_both_the_title_and_subject_fields
  - [x] How_can_I_make_"superman"_in_the_title_field_score_higher_than_in_the_subject_field
  - [x] Why_are_search_results_returned_in_the_order_they_are.3F
  - [x] How_can_I_see_the_relevancy_scores_for_search_results
- - [ ] Why_doesn't_my_query_of_"flash"_match_a_field_containing_"Flash"_(with_a_capital_"F")
- - [ ] How_can_I_make_exact-case_matches_score_higher
- - [ ] I'm_getting_query_parse_exceptions_when_making_queries
- - [ ] How_can_I_make_queries_of_"spiderman"_and_"spider_man"_match_"Spider-Man"
  - [x] How_can_I_search_for_one_term_near_another_term_(say.2C_"batman"_and_"movie")
- - [ ] How_can_I_increase_the_score_for_specific_documents
- - [ ] How_can_I_change_the_score_of_a_document_based_on_the_.2Avalue.2A_of_a_field_(say.2C_"popularity")
- - [ ] How_are_documents_scored
- - [ ] Why_does_id#archangel_come_before_id#hawkgirl_when_querying_for_"wings"
- - [ ] Why_doesn't_document_id#juggernaut_appear_in_the_top_10_results_for_my_query
- - [ ] How_can_I_boost_the_score_of_newer_documents
- - [ ] How_do_I_give_a_negative_(or_very_low)_boost_to_documents_that_match_a_query.3F
- - [ ] TODO
+ - [X] Why_doesn't_document_id#juggernaut_appear_in_the_top_10_results_for_my_query
+ - [X] How_do_I_give_a_negative_(or_very_low)_boost_to_documents_that_match_a_query.3F
 
 
-Dans solr, Il faut mettre extension dans les champs dans les documents qu’on indexe
-
+**PS** : 
+- Dans solr, on peut mettre une extension dans les champs des documents qu’on indexe 
 pour pouvoir effectuer des recherches complexes sur ces champs : 
-il faut les transformer en texte
+il faut les transformer en texte `-> content -> content_txt`
 
--> content -> content_txt
-
-De plus il faut ajouter la langue pour tokenizer
--> content_txt -> content_txt_en
+- On peut également ajouter la langue pour tokenizer  `-> content_txt -> content_txt_en`
 
 
-Ensuite on peut obtenir des requêtes pour que le mot « men » soit présent dans deux champs à la fois
+- Ensuite on peut obtenir des requêtes pour que le mot « men » soit présent dans deux champs à la fois
 
-name_txt_en:trendy AND description_txt_en:T-shirt
-
-
-Pour avoir deux mots placés à n mots l’un de l’autre
-
-description_txt_en:"T-shirt store"~< n >
+> name_txt_en:trendy AND description_txt_en:T-shirt
 
 
+- Pour avoir deux mots placés à n mots l’un de l’autre
 
-Rajouter champs 
-prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
+> description_txt_en:"T-shirt store"~< n >
+
+- Rajouter champs 
+> prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
