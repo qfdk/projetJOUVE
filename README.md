@@ -15,8 +15,7 @@ Requirements
   - java 1.8
 
 ```bash
-git clone https://github.com/qfdk/projetJOUVE.git && cd projetJOUVE
-bash script/install.sh
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/qfdk/projetJOUVE/master/script/install.sh && chmod +x install.sh && bash install.sh
 ```
 
 ## SolrCloud commands
