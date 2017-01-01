@@ -9,8 +9,8 @@ wget "http://wwwftp.ciril.fr/pub/apache/lucene/solr/$VERSION/solr-$VERSION.tgz"
 tar -xvf solr-$VERSION.tgz -C /usr/local/
 
 #put solr path in .bashrc
-echo "PATH=/usr/local/solr-$VERSION/bin:$PATH" > ~/.bashrc
-cd 
+cd
+echo "PATH=/usr/local/solr-$VERSION/bin:$PATH" > .bashrc
 source .bashrc
 
 echo "[info] Install apache solr with success. "
