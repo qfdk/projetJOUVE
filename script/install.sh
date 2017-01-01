@@ -10,7 +10,7 @@ tar -xvf solr-$VERSION.tgz -C /usr/local/
 
 #put solr path in .bashrc
 echo "PATH=/usr/local/solr-$VERSION/bin:$PATH" > ~/.bashrc
-
-source  ~/.bashrc
+cd 
+source .bashrc
 
 echo "[info] Install apache solr with success. "
