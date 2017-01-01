@@ -6,7 +6,7 @@ echo "[info] Download solr ... "
 wget "http://wwwftp.ciril.fr/pub/apache/lucene/solr/$VERSION/solr-$VERSION.tgz"
 
 #unzip solr
-mkdir -P ~/bin
+mkdir -p ~/bin
 tar -xvf solr-$VERSION.tgz -C ~/bin
 
 #put solr path in .bashrc
