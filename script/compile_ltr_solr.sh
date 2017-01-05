@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #download:
-#git clone https://github.com/apache/lucene-solr.git&&cd lucene-solr
+git clone https://github.com/apache/lucene-solr.git&&cd lucene-solr
 
 
 cpt=1
@@ -29,7 +29,8 @@ done
 
 
 #compile
-#ant dist && ant server
+ant dist 
+ant server
 
 
 
