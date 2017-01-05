@@ -33,7 +33,7 @@ do
 	cpt2=$((cpt2+1))
 done
 
-
+cd solr
 
 #compile
 ant dist 
