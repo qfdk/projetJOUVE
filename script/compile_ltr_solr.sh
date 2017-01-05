@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #download:
-git clone https://github.com/apache/lucene-solr.git&&cd lucene-solr
-
+git clone https://github.com/bloomberg/lucene-solr.git&&cd lucene-solr
+echo -e "[info] ant is required!"
 
 cpt=1
 for v in `git branch -va | awk '{print $1}' |sed -e '1,4d' `
