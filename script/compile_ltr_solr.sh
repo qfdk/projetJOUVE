@@ -38,5 +38,6 @@ done
 cd solr
 
 #compile
+ant ivy-bootstrap
 ant dist 
 ant server
