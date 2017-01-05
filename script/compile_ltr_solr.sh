@@ -1,8 +1,15 @@
 #!/bin/bash
 
-#download:
-git clone https://github.com/bloomberg/lucene-solr.git&&cd lucene-solr
-echo -e "[info] ant is required!"
+DIR=~/bin/
+
+if [ ! -f $DIR ]; then
+	mkdir -p $DIR
+	cd ~/bin/;
+	#download:
+	git clone https://github.com/bloomberg/lucene-solr.git
+fi
+
+echo -e "[info]\e[1;34m Ant is required!\e[0m"
 
 cpt=1
 for v in `git branch -va | awk '{print $1}' |sed -e '1,4d' `
