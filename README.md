@@ -1,4 +1,4 @@
-# Projet JOUVE (projet indus)
+# Projet JOUVE (Apache Solr with LTR plugin)
 
 ## Introduction
 
@@ -35,6 +35,69 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/qfdk
 
 *PS : by default, you have to use xml format* : `post -c <collection name> -d '<delete><key>value</key></delete>'`
 
+## Installation
+
+The ltr contrib module requires `dist/solr-ltr-*.jar` and all JARs under `contrib/ltr/lib`.
+Learning-To-Rank is a contrib module and therefore its plugins must be configured in `solrconfig.xml`.
+
+- Include the required contrib JARs. Note that by default paths are relative to the Solr core so they may need adjustments to your configuration, or an explicit specification of the $solr.install.dir.
+
+```bash
+<lib dir="${solr.install.dir:../../../..}/contrib/ltr/lib/" regex=".*\.jar" />
+<lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-ltr-\d.*\.jar" />
+```
+- Declaration of the ltr query parser. 
+
+```bash
+<queryParser name="ltr" class="org.apache.solr.ltr.search.LTRQParserPlugin"/>
+```
+- Configuration of the feature values cache.
+
+```bash
+<cache name="QUERY_DOC_FV"
+       class="solr.search.LRUCache"
+       size="4096"
+       initialSize="2048"
+       autowarmCount="4096"
+       regenerator="solr.search.NoOpRegenerator" />
+```
+- Declaration of the [features] transformer.
+
+```bash
+<transformer name="features" class="org.apache.solr.ltr.response.transform.LTRFeatureLoggerTransformerFactory">
+  <str name="fvCacheName">QUERY_DOC_FV</str>
+</transformer>
+``` 
+ 
+## Quick Start Example
+The "techproducts" example included with Solr is pre-configured with the plugins required for learning-to-rank - but they are disabled by default.
+To enable the plugins, please specify the "solr.ltr.enabled" JVM System Property when running the example:
+
+```bash
+bin/solr start -e techproducts -Dsolr.ltr.enabled=true
+```
+
+## Tips
+
+- Dans solr, on peut mettre une extension dans les champs des documents qu’on indexe 
+pour pouvoir effectuer des recherches complexes sur ces champs : 
+il faut les transformer en texte `-> content -> content_txt`
+
+- On peut également ajouter la langue pour tokenizer  `-> content_txt -> content_txt_en`
+
+
+- Ensuite on peut obtenir des requêtes pour que le mot « men » soit présent dans deux champs à la fois
+
+> name_txt_en:trendy AND description_txt_en:T-shirt
+
+
+- Pour avoir deux mots placés à n mots l’un de l’autre
+
+> description_txt_en:"T-shirt store"~< n >
+
+- Rajouter champs 
+> prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
+
 ## Default Parameters
 
 |Parameter | Description|
@@ -65,35 +128,3 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/qfdk
 - [Drive Google](https://drive.google.com/open?id=0B4HJ5bjgQWb-XzNKLWNCdDdKSHc)
 - [LTR](https://lucidworks.com/blog/2016/08/17/learning-to-rank-solr/)
 - [SOLR Search query](https://cwiki.apache.org/confluence/display/solr/Searching)
-
-## Done
-
- - [x] Should_I_use_the_standard_or_dismax_Query_Parser
- - [x] How_can_I_search_for_"superman"_in_both_the_title_and_subject_fields
- - [x] How_can_I_make_"superman"_in_the_title_field_score_higher_than_in_the_subject_field
- - [x] Why_are_search_results_returned_in_the_order_they_are.3F
- - [x] How_can_I_see_the_relevancy_scores_for_search_results
- - [x] How_can_I_search_for_one_term_near_another_term_(say.2C_"batman"_and_"movie")
- - [X] Why_doesn't_document_id#juggernaut_appear_in_the_top_10_results_for_my_query
- - [X] How_do_I_give_a_negative_(or_very_low)_boost_to_documents_that_match_a_query.3F
-
-
-**PS** : 
-- Dans solr, on peut mettre une extension dans les champs des documents qu’on indexe 
-pour pouvoir effectuer des recherches complexes sur ces champs : 
-il faut les transformer en texte `-> content -> content_txt`
-
-- On peut également ajouter la langue pour tokenizer  `-> content_txt -> content_txt_en`
-
-
-- Ensuite on peut obtenir des requêtes pour que le mot « men » soit présent dans deux champs à la fois
-
-> name_txt_en:trendy AND description_txt_en:T-shirt
-
-
-- Pour avoir deux mots placés à n mots l’un de l’autre
-
-> description_txt_en:"T-shirt store"~< n >
-
-- Rajouter champs 
-> prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
