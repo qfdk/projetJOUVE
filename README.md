@@ -97,3 +97,14 @@ il faut les transformer en texte `-> content -> content_txt`
 
 - Rajouter champs 
 > prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
+
+
+##Lancer le test inclu dans solr -> techproducts
+Se placer dans le répertoire lucene-solr/solr/
+
+Lancer solr, l'exemple techproducts avec le plugin LTR actif
+`./bin/solr -e techproducts -Dsolr.ltr.enabled=true`
+
+Lancer solr et l'exemple techproducts
+`./bin/solr start -e techproducts`
+
