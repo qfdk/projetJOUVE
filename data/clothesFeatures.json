@@ -1,0 +1,19 @@
+[
+  {
+    "name" : "nbClicks",
+    "class" : "org.apache.solr.ltr.feature.SolrFeature",
+    "params" : {
+      "sort" : ["number_clicks_i desc"]
+    }
+  },
+  {
+    "name" : "isInStock",
+    "class" : "org.apache.solr.ltr.feature.FieldValueFeature",
+    "params" : { "in-stock_b": true }
+  },
+  {
+    "name" : "isInPromo",
+    "class" : "org.apache.solr.ltr.feature.FieldValueFeature",
+    "params" : { "in-promo_b": true }
+  }
+]
