@@ -1,0 +1,23 @@
+{
+    "store": "jouvestore",
+    "class": "org.apache.solr.ltr.model.LinearModel",
+    "name": "jouvemodel",
+    "features": [
+        {
+            "name": "isInStock"
+        },
+        {
+            "name": "isInPromo"
+        },
+        {
+            "name": "originalScore"
+        }
+    ],
+    "params": {
+        "weights": {
+            "isInStock": 1.0,
+            "isInPromo": 0.1,
+            "originalScore": 0.5
+        }
+    }
+}

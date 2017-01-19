@@ -1,0 +1,6 @@
+curl -XPUT 'http://localhost:8983/solr/corejouve/schema/feature-store' --data-binary "@feature.json" -H 'Content-type:application/json'
+
+http://localhost:8983/solr/corejouve/query?q=*:*&fl=id,score,[features%20store=jouvestore]&rq={!ltr model=jouvemodel reRankDocs=10}
+
+
+curl -XPUT 'http://localhost:8983/solr/corejouve/schema/model-store' --data-binary "@model.json" -H 'Content-type:application/json'
