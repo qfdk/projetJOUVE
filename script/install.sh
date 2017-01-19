@@ -1,14 +1,17 @@
 #!/bin/bash
+VERSION=6.3.0
 
 #download solr
 echo "[info] Download solr ... "
-wget "http://wwwftp.ciril.fr/pub/apache/lucene/solr/6.2.1/solr-6.2.1.tgz"
+wget "http://wwwftp.ciril.fr/pub/apache/lucene/solr/$VERSION/solr-$VERSION.tgz"
 
 #unzip solr
-tar -xvf solr-6.2.1.tgz
+mkdir -p ~/bin
+tar -xvf solr-$VERSION.tgz -C ~/bin
 
 #put solr path in .bashrc
-echo "PATH=`pwd`/solr-6.2.1/bin:$PATH" > ~/.bashrc
+cd
+echo "PATH=~/bin/solr-$VERSION/bin:$PATH" > .bashrc
+source .bashrc
 
-source  ~/.bashrc
 echo "[info] Install apache solr with success. "
