@@ -1,0 +1,24 @@
+[
+  {
+    "store" : "jouvestore",
+    "name" : "isInStock",
+    "class" : "org.apache.solr.ltr.feature.SolrFeature",
+    "params" : {
+      "fq": [ "{!terms f=in-stock_b}true" ]
+    }
+  },
+  {
+    "store" : "jouvestore",
+    "name" : "isInPromo",
+    "class" : "org.apache.solr.ltr.feature.SolrFeature",
+    "params" : {
+      "fq": [ "{!terms f=in-promo_b}true" ]
+    }
+  },
+  {
+    "store" : "jouvestore",
+    "name" : "originalScore",
+    "class" : "org.apache.solr.ltr.feature.OriginalScoreFeature",
+    "params" : {}
+  }
+]
