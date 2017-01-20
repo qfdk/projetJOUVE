@@ -8,7 +8,15 @@ Pour les modèles de « machine learning » : Soit utiliser les nouvelles fo
 
 En mettant en œuvre le prototype, les étudiants devront comparer les résultats d’un ranking traditionnel basé uniquement sur la pertinence du contenu des documents avec les fonctionnalités mises en place.
 
-## Install Apache solr with script
+```bash
+├── GenTrainingDataSolr // generate training data for ltr
+├── README.md
+├── data // test data
+├── json // our examples
+└── script // script for install Apache solr
+```
+
+## Install Apache solr
 
 Requirements
   - Linux/macOS
@@ -35,7 +43,7 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/qfdk
 
 *PS : by default, you have to use xml format* : `post -c <collection name> -d '<delete><key>value</key></delete>'`
 
-## Installation
+## Installation plugin LTR
 
 The ltr contrib module requires `dist/solr-ltr-*.jar` and all JARs under `contrib/ltr/lib`.
 Learning-To-Rank is a contrib module and therefore its plugins must be configured in `solrconfig.xml`.
@@ -107,7 +115,6 @@ il faut les transformer en texte `-> content -> content_txt`
 |sort| A sort order(asc or desc)|
 |sart,rows|0-10 (number of record)|
 |fl|The filed  which to display|
-|df|x|
 
 ## DisMax Parameters
 
@@ -115,13 +122,7 @@ il faut les transformer en texte `-> content -> content_txt`
 |----------|------------|
 |q.alt|Calls the standard query parser and defines query input strings, when the q parameter is not used.|
 |qf|Query Fields: specifies the fields in the index on which to perform the query. If absent, defaults to df.|
-|mm|x|
-|pf|x|
-|ps|x|
-|qs|x|
-|tie|x|
 |bq|cat:electronics^5.0 inStock:true^0.1|
-|bf|x|
 
 ## Resources
 
@@ -161,15 +162,4 @@ il faut les transformer en texte `-> content -> content_txt`
 
 - Rajouter champs 
 > prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
-
-
-##Lancer le test inclu dans solr -> techproducts
-Se placer dans le répertoire lucene-solr/solr/
-
-Lancer solr, l'exemple techproducts avec le plugin LTR actif
-`./bin/solr -e techproducts -Dsolr.ltr.enabled=true`
-
-Lancer solr et l'exemple techproducts
-`./bin/solr start -e techproducts`
-
 
