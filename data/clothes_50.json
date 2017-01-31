@@ -1,6 +1,6 @@
 [
     {
-        "id": "588084e4c545160bea356111",
+        "id": "1",
         "category_txt_en": "skirt",
         "name_txt_en": "skirt straight",
         "description_txt_en": "Straight skirt, red color",
@@ -14,7 +14,7 @@
         "price_i": 410
     },
     {
-        "id": "588084e46d1b7cbdfc60e12d",
+        "id": "2",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt tight",
         "description_txt_en": "T-shirt for male, size 38, tight",
@@ -28,7 +28,7 @@
         "price_i": 500
     },
     {
-        "id": "588084e4de84240047664afa",
+        "id": "3",
         "category_txt_en": "jeans",
         "name_txt_en": "jeans beautiful",
         "description_txt_en": "Beautiful jeans, yellow, that's unexpected",
@@ -42,7 +42,7 @@
         "price_i": 306
     },
     {
-        "id": "588084e470611f0edea75659",
+        "id": "4",
         "category_txt_en": "dress",
         "name_txt_en": "dress sporty",
         "description_txt_en": "A sporty dress, run while being beautiful",
@@ -56,7 +56,7 @@
         "price_i": 449
     },
     {
-        "id": "588084e41abf90e335e608f8",
+        "id": "5",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket tight",
         "description_txt_en": "Tight jacket for female, grey",
@@ -70,7 +70,7 @@
         "price_i": 372
     },
     {
-        "id": "588084e4873548d826703da1",
+        "id": "6",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt low-cut",
         "description_txt_en": "Very trendy T-shirt, size 44",
@@ -84,7 +84,7 @@
         "price_i": 344
     },
     {
-        "id": "588084e4ba99d8b62891e971",
+        "id": "7",
         "category_txt_en": "jeans",
         "name_txt_en": "jeans straight",
         "description_txt_en": "Straight jeans for female",
@@ -98,7 +98,7 @@
         "price_i": 399
     },
     {
-        "id": "588084e48669e2f125b2f025",
+        "id": "8",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket skinny",
         "description_txt_en": "Jacket for skinny men, purple..!",
@@ -112,7 +112,7 @@
         "price_i": 121
     },
     {
-        "id": "588084e416e4ab75a71359e8",
+        "id": "9",
         "category_txt_en": "dress",
         "name_txt_en": "dress nice",
         "description_txt_en": "What to say about this dress... It's nice",
@@ -126,7 +126,7 @@
         "price_i": 69
     },
     {
-        "id": "588084e44046202c7dd6fad5",
+        "id": "10",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater skinny",
         "description_txt_en": "Sweater for women, size 46, grey",
@@ -140,7 +140,7 @@
         "price_i": 407
     },
     {
-        "id": "588084e42a48ad9fd128f148",
+        "id": "11",
         "category_txt_en": "skirt",
         "name_txt_en": "skirt beautiful",
         "description_txt_en": "Skirt size 34, very trendy",
@@ -154,7 +154,7 @@
         "price_i": 290
     },
     {
-        "id": "588084e46be6e2333431d311",
+        "id": "12",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket straight",
         "description_txt_en": "Jacket, straight, men, size 40, purple",
@@ -168,7 +168,7 @@
         "price_i": 80
     },
     {
-        "id": "588084e4b976b44a08b2ab25",
+        "id": "13",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket heavy",
         "description_txt_en": "Sweater for sporty women",
@@ -182,7 +182,7 @@
         "price_i": 220
     },
     {
-        "id": "588084e4d4541a8803897064",
+        "id": "14",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater sporty",
         "description_txt_en": "Sweater for sporty women",
@@ -196,7 +196,7 @@
         "price_i": 426
     },
     {
-        "id": "588084e4e4121d358dfa0227",
+        "id": "15",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt tight",
         "description_txt_en": "Red t-shirt for women",
@@ -210,7 +210,7 @@
         "price_i": 470
     },
     {
-        "id": "588084e492fc29c34c6ff2fb",
+        "id": "16",
         "category_txt_en": "skirt",
         "name_txt_en": "skirt light",
         "description_txt_en": "Blue skirt, perfect for summer",
@@ -224,7 +224,7 @@
         "price_i": 447
     },
     {
-        "id": "588084e4fd68b223a22cc9f7",
+        "id": "17",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket sporty",
         "description_txt_en": "Sporty jacket, ideal for the week-end",
@@ -238,7 +238,7 @@
         "price_i": 467
     },
     {
-        "id": "588084e47523e74979dba864",
+        "id": "18",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt loose",
         "description_txt_en": "Big and comfortable t-shirt for women",
@@ -252,7 +252,7 @@
         "price_i": 351
     },
     {
-        "id": "588084e450c23255a4786df2",
+        "id": "19",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt tight",
         "description_txt_en": "Tight t-shirt, yellow, for men",
@@ -266,7 +266,7 @@
         "price_i": 447
     },
     {
-        "id": "588084e462c8a12009ab2495",
+        "id": "20",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt loose",
         "description_txt_en": "Loose t-shirt, size 38",
@@ -280,7 +280,7 @@
         "price_i": 131
     },
     {
-        "id": "588084e4c07fc2abc0b02b35",
+        "id": "21",
         "category_txt_en": "skirt",
         "name_txt_en": "skirt perfect",
         "description_txt_en": "The perfect skirt for men !",
@@ -294,7 +294,7 @@
         "price_i": 170
     },
     {
-        "id": "588084e407a5cbc99e19be59",
+        "id": "22",
         "category_txt_en": "dress",
         "name_txt_en": "dress trendy",
         "description_txt_en": "Trendy dress for women",
@@ -308,7 +308,7 @@
         "price_i": 393
     },
     {
-        "id": "588084e40f393d4523d8a190",
+        "id": "23",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater heavy",
         "description_txt_en": "Basic jeans, women",
@@ -322,7 +322,7 @@
         "price_i": 294
     },
     {
-        "id": "588084e436cc4fa53c05aea1",
+        "id": "24",
         "category_txt_en": "jeans",
         "name_txt_en": "jeans nice",
         "description_txt_en": "Green jeans",
@@ -336,7 +336,7 @@
         "price_i": 244
     },
     {
-        "id": "588084e4f86228ac0f7c47f7",
+        "id": "25",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket light",
         "description_txt_en": "Light jacket, nice for summer",
@@ -350,7 +350,7 @@
         "price_i": 177
     },
     {
-        "id": "588084e48d983fb2904a3470",
+        "id": "26",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater perfect",
         "description_txt_en": "Sweater, male, purple",
@@ -364,7 +364,7 @@
         "price_i": 364
     },
     {
-        "id": "588084e4eaca5726865943f2",
+        "id": "27",
         "category_txt_en": "skirt",
         "name_txt_en": "skirt perfect",
         "description_txt_en": "Trendy skirt, size 38",
@@ -378,7 +378,7 @@
         "price_i": 497
     },
     {
-        "id": "588084e440b257e90879ab31",
+        "id": "28",
         "category_txt_en": "skirt",
         "name_txt_en": "skirt skinny",
         "description_txt_en": "Black skirt, size 38. Be THE lady of the night.",
@@ -392,7 +392,7 @@
         "price_i": 95
     },
     {
-        "id": "588084e469fbccc531aec7c0",
+        "id": "29",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket nice",
         "description_txt_en": "Nice purple jacket, women",
@@ -406,7 +406,7 @@
         "price_i": 332
     },
     {
-        "id": "588084e43276e97e68217a03",
+        "id": "30",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater signature",
         "description_txt_en": "Special sweater for men, size 38",
@@ -420,7 +420,7 @@
         "price_i": 87
     },
     {
-        "id": "588084e4e2d9fd61a2a651b3",
+        "id": "31",
         "category_txt_en": "skirt",
         "name_txt_en": "skirt trendy",
         "description_txt_en": "Trendy skirt, yellow, size 46",
@@ -434,7 +434,7 @@
         "price_i": 99
     },
     {
-        "id": "588084e4f11bca15117d9d8b",
+        "id": "32",
         "category_txt_en": "dress",
         "name_txt_en": "dress nice",
         "description_txt_en": "Grey dress, size 36, nice",
@@ -448,7 +448,7 @@
         "price_i": 391
     },
     {
-        "id": "588084e4b53807d3474feac7",
+        "id": "33",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater loose",
         "description_txt_en": "Sweater for men, loose style",
@@ -462,7 +462,7 @@
         "price_i": 370
     },
     {
-        "id": "588084e40e37649577881347",
+        "id": "34",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater trendy",
         "description_txt_en": "Sweater for women, nice & trendy",
@@ -476,7 +476,7 @@
         "price_i": 369
     },
     {
-        "id": "588084e451645cee4eda83d7",
+        "id": "35",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket loose",
         "description_txt_en": "Green jacket. Be fabulous.",
@@ -490,7 +490,7 @@
         "price_i": 441
     },
     {
-        "id": "588084e4f859321b027f246b",
+        "id": "36",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt trendy",
         "description_txt_en": "Orange t-shirt, for women, nice & trendy",
@@ -504,7 +504,7 @@
         "price_i": 196
     },
     {
-        "id": "588084e4f7fb8c71c41d9880",
+        "id": "37",
         "category_txt_en": "dress",
         "name_txt_en": "dress perfect",
         "description_txt_en": "THE perfect dress. Size 46, purple",
@@ -518,7 +518,7 @@
         "price_i": 175
     },
     {
-        "id": "588084e4677108c5d23b99ca",
+        "id": "38",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt sporty",
         "description_txt_en": "Basic sporty t-shirt, yellow",
@@ -532,7 +532,7 @@
         "price_i": 347
     },
     {
-        "id": "588084e4145127a9cfd8d91c",
+        "id": "39",
         "category_txt_en": "dress",
         "name_txt_en": "dress skinny",
         "description_txt_en": "Dress, color bisque. Not common",
@@ -546,7 +546,7 @@
         "price_i": 8
     },
     {
-        "id": "588084e4961bcf3bb9d23d3b",
+        "id": "40",
         "category_txt_en": "dress",
         "name_txt_en": "dress signature",
         "description_txt_en": "Special dress, size 36, purple.",
@@ -560,7 +560,7 @@
         "price_i": 245
     },
     {
-        "id": "588084e4c05f7a021614a587",
+        "id": "41",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt light",
         "description_txt_en": "Basic t-shirt",
@@ -574,7 +574,7 @@
         "price_i": 180
     },
     {
-        "id": "588084e48b2f9eef264fc781",
+        "id": "42",
         "category_txt_en": "jacket",
         "name_txt_en": "jacket low-cut",
         "description_txt_en": "Jacket rocker style, purple",
@@ -588,7 +588,7 @@
         "price_i": 239
     },
     {
-        "id": "588084e4673e3cacde4837c7",
+        "id": "43",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt loose",
         "description_txt_en": "T-shirt loose style, very trendy",
@@ -602,7 +602,7 @@
         "price_i": 134
     },
     {
-        "id": "588084e426f088432a639226",
+        "id": "44",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater trendy",
         "description_txt_en": "Yellow sweater for women, very trendy",
@@ -616,7 +616,7 @@
         "price_i": 264
     },
     {
-        "id": "588084e465bd8ab670ab5712",
+        "id": "45",
         "category_txt_en": "jeans",
         "name_txt_en": "jeans light",
         "description_txt_en": "Easy jeans, lightweight, for men",
@@ -630,7 +630,7 @@
         "price_i": 433
     },
     {
-        "id": "588084e451f0dcac7b596e0c",
+        "id": "46",
         "category_txt_en": "sweater",
         "name_txt_en": "sweater light",
         "description_txt_en": "Sweater, color BISQUE. Absolutely NOT common.",
@@ -644,7 +644,7 @@
         "price_i": 186
     },
     {
-        "id": "588084e49a3d6470738d6380",
+        "id": "47",
         "category_txt_en": "dress",
         "name_txt_en": "dress signature",
         "description_txt_en": "Signature dress, size 34",
@@ -658,7 +658,7 @@
         "price_i": 233
     },
     {
-        "id": "588084e4361abb63b6bd11a8",
+        "id": "48",
         "category_txt_en": "jeans",
         "name_txt_en": "jeans low",
         "description_txt_en": "Orange jeans. Be flashy !",
@@ -672,7 +672,7 @@
         "price_i": 264
     },
     {
-        "id": "588084e447864d7f70d664de",
+        "id": "49",
         "category_txt_en": "dress",
         "name_txt_en": "dress trendy",
         "description_txt_en": "Trendy dress, orange, easy & nice",
@@ -686,7 +686,7 @@
         "price_i": 233
     },
     {
-        "id": "588084e4e186b693b60d82e3",
+        "id": "50",
         "category_txt_en": "t-shirt",
         "name_txt_en": "t-shirt skinny",
         "description_txt_en": "T-shirt, skinny style",
