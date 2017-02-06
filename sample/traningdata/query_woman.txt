@@ -1,0 +1,51 @@
+skirt|35|0|HUMAN_JUDGEMENT
+skirt|10|0|HUMAN_JUDGEMENT
+skirt|32|2|HUMAN_JUDGEMENT
+skirt|3|4|HUMAN_JUDGEMENT
+skirt|1|2|HUMAN_JUDGEMENT
+skirt|25|2|HUMAN_JUDGEMENT
+skirt woman|35|0|HUMAN_JUDGEMENT
+skirt woman|10|0|HUMAN_JUDGEMENT
+skirt woman|32|2|HUMAN_JUDGEMENT
+skirt woman|3|4|HUMAN_JUDGEMENT
+skirt woman|1|2|HUMAN_JUDGEMENT
+skirt woman|25|2|HUMAN_JUDGEMENT
+skirt woman party|10|0|HUMAN_JUDGEMENT
+skirt woman party|35|0|HUMAN_JUDGEMENT
+skirt woman party|32|2|HUMAN_JUDGEMENT
+skirt woman party|3|4|HUMAN_JUDGEMENT
+skirt woman party|1|2|HUMAN_JUDGEMENT
+skirt woman party|25|2|HUMAN_JUDGEMENT
+skirt woman party|11|0|HUMAN_JUDGEMENT
+skirt woman party|13|2|HUMAN_JUDGEMENT
+jacket|9|0|HUMAN_JUDGEMENT
+jacket|15|0|HUMAN_JUDGEMENT
+jacket|4|1|HUMAN_JUDGEMENT
+jacket|33|0|HUMAN_JUDGEMENT
+jacket|42|0|HUMAN_JUDGEMENT
+jacket|11|0|HUMAN_JUDGEMENT
+jacket|31|0|HUMAN_JUDGEMENT
+jacket|26|0|HUMAN_JUDGEMENT
+jacket|48|0|HUMAN_JUDGEMENT
+jacket|50|0|HUMAN_JUDGEMENT
+jacket|29|0|HUMAN_JUDGEMENT
+jacket|30|0|HUMAN_JUDGEMENT
+jacket|22|0|HUMAN_JUDGEMENT
+jacket|34|0|HUMAN_JUDGEMENT
+jacket|23|0|HUMAN_JUDGEMENT
+red skirt woman|18|0|HUMAN_JUDGEMENT
+red skirt woman|30|0|HUMAN_JUDGEMENT
+red skirt woman|19|0|HUMAN_JUDGEMENT
+red skirt woman|10|0|HUMAN_JUDGEMENT
+red skirt woman|35|0|HUMAN_JUDGEMENT
+red skirt woman|3|4|HUMAN_JUDGEMENT
+red skirt woman|32|2|HUMAN_JUDGEMENT
+red skirt woman|1|2|HUMAN_JUDGEMENT
+red skirt woman|25|2|HUMAN_JUDGEMENT
+red skirt woman|4|1|HUMAN_JUDGEMENT
+red skirt woman|41|1|HUMAN_JUDGEMENT
+red skirt woman|28|1|HUMAN_JUDGEMENT
+red skirt woman|16|1|HUMAN_JUDGEMENT
+red skirt woman|27|1|HUMAN_JUDGEMENT
+red skirt woman|8|1|HUMAN_JUDGEMENT
+red skirt woman|14|1|HUMAN_JUDGEMENT

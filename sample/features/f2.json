@@ -1,0 +1,38 @@
+[
+    {
+        "store": "manstore",
+        "name": "originalScore",
+        "class": "org.apache.solr.ltr.feature.OriginalScoreFeature",
+        "params": {}
+    },
+    {
+        "store": "manstore",
+        "name": "color",
+        "class": "org.apache.solr.ltr.feature.SolrFeature",
+        "params": {
+            "fq": [
+                "{!terms f=color_txt_en}blue"
+            ]
+        }
+    },
+    {
+        "store": "manstore",
+        "name": "gender",
+        "class": "org.apache.solr.ltr.feature.SolrFeature",
+        "params": {
+            "fq": [
+                "{!terms f=gender_txt_i}1"
+            ]
+        }
+    },
+    {
+        "store": "manstore",
+        "name": "category",
+        "class": "org.apache.solr.ltr.feature.SolrFeature",
+        "params": {
+            "fq": [
+                "{!terms f=category_txt_en}jacket"
+            ]
+        }
+    }
+]

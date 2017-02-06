@@ -1,0 +1,38 @@
+[
+    {
+        "store": "womanstore",
+        "name": "originalScore",
+        "class": "org.apache.solr.ltr.feature.OriginalScoreFeature",
+        "params": {}
+    },
+    {
+        "store": "womanstore",
+        "name": "color",
+        "class": "org.apache.solr.ltr.feature.SolrFeature",
+        "params": {
+            "fq": [
+                "{!terms f=color_txt_en}red"
+            ]
+        }
+    },
+    {
+        "store": "womanstore",
+        "name": "gender",
+        "class": "org.apache.solr.ltr.feature.SolrFeature",
+        "params": {
+            "fq": [
+                "{!terms f=gender_txt_i}0"
+            ]
+        }
+    },
+    {
+        "store": "womanstore",
+        "name": "category",
+        "class": "org.apache.solr.ltr.feature.SolrFeature",
+        "params": {
+            "fq": [
+                "{!terms f=category_txt_en}skirt"
+            ]
+        }
+    }
+]

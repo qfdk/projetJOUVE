@@ -28,14 +28,27 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/qfdk
 
 ## SolrCloud commands
 
-- Launch solr example : `solr start -e cloud -noprompt`
-- Add a file to solr : `post -c <collection name> <path><filename>`
-- Add several files : `post -c <collection name> <path><regex(ex : *.xml)>`
-- Delete a file from solr using JSON format : `post -c <collection name> -type application/JSON -d '{delete : {<key>: <value>}}'`
+```bash
+#Launch solr example
+solr start -e cloud -noprompt
+
+#Add a file to solr 
+post -c <collection name> <path><filename>
+
+#Add several files 
+post -c <collection name> <path><regex(ex : *.xml)>
+
+#Delete a file from solr using JSON format 
+post -c <collection name> -type application/JSON -d '{delete : {<key>: <value>}}'
+
+```
 
 ## Own Solr Config
 
-- create core : `solr start` & `solr create -c <name>`
+```bash
+#create core 
+solr start && solr create -c <name>
+```
 
 ## Searching
 
@@ -85,6 +98,34 @@ To enable the plugins, please specify the "solr.ltr.enabled" JVM System Property
 bin/solr start -e techproducts -Dsolr.ltr.enabled=true
 ```
 
+## Default Parameters
+
+|Parameter | Description|
+|----------|------------|
+|q|Query key:value|
+|fq|Applies a filter query to the search results.|
+|sort| A sort order(asc or desc)|
+|sart,rows|0-10 (number of record)|
+|fl|The filed  which to display|
+
+## DisMax Parameters
+
+|Parameter | Description|
+|----------|------------|
+|q.alt|Calls the standard query parser and defines query input strings, when the q parameter is not used.|
+|qf|Query Fields: specifies the fields in the index on which to perform the query. If absent, defaults to df.|
+|bq|cat:electronics^5.0 inStock:true^0.1|
+
+## Results
+
+- for woman
+
+![](./results/skirt_wmodel.png)
+
+- for man
+
+![](./results/man_model.png)
+
 ## Tips
 
 - Dans solr, on peut mettre une extension dans les champs des documents qu’on indexe 
@@ -106,60 +147,9 @@ il faut les transformer en texte `-> content -> content_txt`
 - Rajouter champs 
 > prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
 
-## Default Parameters
-
-|Parameter | Description|
-|----------|------------|
-|q|Query key:value|
-|fq|Applies a filter query to the search results.|
-|sort| A sort order(asc or desc)|
-|sart,rows|0-10 (number of record)|
-|fl|The filed  which to display|
-
-## DisMax Parameters
-
-|Parameter | Description|
-|----------|------------|
-|q.alt|Calls the standard query parser and defines query input strings, when the q parameter is not used.|
-|qf|Query Fields: specifies the fields in the index on which to perform the query. If absent, defaults to df.|
-|bq|cat:electronics^5.0 inStock:true^0.1|
-
 ## Resources
 
+- [GenerateTrainingData](https://github.com/qfdk/GenTrainingDataSolr)
 - [Drive Google](https://drive.google.com/open?id=0B4HJ5bjgQWb-XzNKLWNCdDdKSHc)
 - [LTR](https://lucidworks.com/blog/2016/08/17/learning-to-rank-solr/)
 - [SOLR Search query](https://cwiki.apache.org/confluence/display/solr/Searching)
-
-
-## Done
-
- - [x] Should_I_use_the_standard_or_dismax_Query_Parser
- - [x] How_can_I_search_for_"superman"_in_both_the_title_and_subject_fields
- - [x] How_can_I_make_"superman"_in_the_title_field_score_higher_than_in_the_subject_field
- - [x] Why_are_search_results_returned_in_the_order_they_are.3F
- - [x] How_can_I_see_the_relevancy_scores_for_search_results
- - [x] How_can_I_search_for_one_term_near_another_term_(say.2C_"batman"_and_"movie")
- - [X] Why_doesn't_document_id#juggernaut_appear_in_the_top_10_results_for_my_query
- - [X] How_do_I_give_a_negative_(or_very_low)_boost_to_documents_that_match_a_query.3F
-
-
-**PS** : 
-- Dans solr, on peut mettre une extension dans les champs des documents qu’on indexe 
-pour pouvoir effectuer des recherches complexes sur ces champs : 
-il faut les transformer en texte `-> content -> content_txt`
-
-- On peut également ajouter la langue pour tokenizer  `-> content_txt -> content_txt_en`
-
-
-- Ensuite on peut obtenir des requêtes pour que le mot « men » soit présent dans deux champs à la fois
-
-> name_txt_en:trendy AND description_txt_en:T-shirt
-
-
-- Pour avoir deux mots placés à n mots l’un de l’autre
-
-> description_txt_en:"T-shirt store"~< n >
-
-- Rajouter champs 
-> prix, categorie, nombre de click, nombre de ventes, temps moyen passé sur fiche produit
-

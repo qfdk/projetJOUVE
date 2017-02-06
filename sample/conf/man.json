@@ -1,0 +1,17 @@
+{
+  "host":                     "localhost",
+  "port":                     8983,
+  "collection":               "corejouve",
+  "requestHandler":           "query",
+  "q":                        "*:*",
+  "efiParams":                "efi.user_query='$USERQUERY'",
+  "userQueriesFile":          "query_man.txt",
+  "trainingFile":             "out_exampleTrainingFile.txt",
+  "trainedModelFile":         "out_exampleTrainedModel.txt",
+  "trainingLibraryLocation":  "/Users/qfdk/Developer/bin/liblinear/train",
+  "trainingLibraryOptions":   "-q",
+  "solrFeaturesFile":         "f2.json",
+  "solrFeatureStoreName":     "manstore",
+  "solrModelFile":            "out_exampleModel.json",
+  "solrModelName":            "manmodel"
+}

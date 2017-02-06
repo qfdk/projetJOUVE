@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=6.3.0
+VERSION=6.4.0
 
 #download solr
 echo "[info] Download solr ... "
