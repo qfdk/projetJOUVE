@@ -169,9 +169,3 @@ il faut les transformer en texte `-> content -> content_txt`
 - [Drive Google](https://drive.google.com/open?id=0B4HJ5bjgQWb-XzNKLWNCdDdKSHc)
 - [LTR](https://lucidworks.com/blog/2016/08/17/learning-to-rank-solr/)
 - [SOLR Search query](https://cwiki.apache.org/confluence/display/solr/Searching)
-
-## Sponsor
-
-<a href="https://voilapro.app/?ref=github-projetjouve"><img src="voila-banner.png" alt="Voilà Pro" width="500"/></a>
-
-This project is sponsored by [Voilà Pro](https://voilapro.app/?ref=github-projetjouve) — voice typing for macOS. Hold a key, speak, and the text lands at your cursor, in any mix of languages.
